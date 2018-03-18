@@ -1,0 +1,43 @@
+.upload-box .btn-file {
+        background-color: #1b8af3;
+}
+.upload-box .hold {
+    float: left;
+    width: 100%;
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 4px;
+}
+.upload-box .hold a {
+    font: 400 14px/36px 'Roboto',sans-serif;
+    color: #666;
+    text-decoration: none;
+}
+
+.upload-box .btn-file {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    padding: 12px 20px;
+    font: 900 14px/14px 'Roboto',sans-serif;
+    color: #fff;
+    margin: 0 10px 0 0;
+    text-transform: uppercase;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.upload-box .btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    opacity: 0;
+    outline: none;
+    background: #fd0707;
+    cursor: inherit;
+    display: block;
+}
